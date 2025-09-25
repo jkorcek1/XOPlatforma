@@ -3,7 +3,7 @@ const config = {
     elements: {
         menuText1: {
             type: "text",
-            cs: "Umíš to s domečky a papučkami?",
+            cs: "Zvládneš pIšQworky s novými symboly?<br>Místo křížků a koleček, bačkory a domečky.",
             sk: "Vieš to s domčekmi a papučkami?"
         },
         menuText2: {
@@ -46,6 +46,16 @@ const config = {
             cs: "Chceš vědět víc? Koukni na náš web <span class='highlight' onclick='toggleXOIframe()'>pisqworky.cz</span>, budeme se těšit.",
             sk: "Chceš vedieť viac? Pozri na náš web <span class='highlight' onclick='toggleXOIframe()'>pisqworky.sk</span>, budeme sa tešiť.",
         },
+        gameDDTitle: {
+            type: "text",
+            cs: "Podzim je tu. Prší a fouká.  Kde je nejlíp? Doma - v teple a pod střechou.",
+            sk: ""
+        },
+        gameDDText: {
+            type: "text",
+            cs: "Nevyléčitelná nemoc může zasáhnout kohokoliv z nás. Čtyři z pěti lidí si přejí zemřít doma. Vyhledejte odbornou pomoc u mobilních hospiců včas.",
+            sk: "",
+        },
         gameQRImageSrc: {
             type: "src",
             cs: "assets/img/cs/qr_code_dark.svg",
@@ -53,8 +63,8 @@ const config = {
         },
         gameWinCross: {
             type: "text",
-            cs: "Papučka vyhrála",
-            sk: "Papučka vyhrala"
+            cs: "Bačkory vyhrály",
+            sk: "Papuče vyhrali"
         },
         gameWinCircle: {
             type: "text",
