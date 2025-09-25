@@ -94,7 +94,7 @@ function placeSymbol(x, y) {
     const linearCoords = 15*y + x;
 
     const img = document.createElement('img');
-    img.src = `assets/img/${player ? "x" : "o"}.svg`;
+    img.src = `assets/img/${player ? "x" : "o"}.png`;
     
     document.querySelectorAll('.board-box')[linearCoords].appendChild(img);
 
