@@ -3,8 +3,8 @@ const config = {
     elements: {
         menuText1: {
             type: "text",
-            cs: "Umíš to s křížky a kolečky?",
-            sk: "Vieš to s krížikmi a kolieskami?"
+            cs: "Umíš to s domečky a papučkami?",
+            sk: "Vieš to s domčekmi a papučkami?"
         },
         menuText2: {
             type: "text",
@@ -53,13 +53,13 @@ const config = {
         },
         gameWinCross: {
             type: "text",
-            cs: "Křížek vyhrál",
-            sk: "Krížik vyhral"
+            cs: "Papučka vyhrála",
+            sk: "Papučka vyhrala"
         },
         gameWinCircle: {
             type: "text",
-            cs: "Kolečko vyhrálo",
-            sk: "Koliesko vyhralo",
+            cs: "Domeček vyhrál",
+            sk: "Domček vyhral",
         },
         gameWinDraw: {
             type: "text",
