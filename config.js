@@ -48,12 +48,12 @@ const config = {
         },
         gameDDTitle: {
             type: "text",
-            cs: "Podzim je tu. Prší a fouká.  Kde je nejlíp? Doma - v teple a pod střechou.",
+            cs: "Místo křížků a koleček, bačkory a domeček.<br>Kam se poděly?",
             sk: ""
         },
-        gameDDText: {
+        gameDDDescription: {
             type: "text",
-            cs: "Nevyléčitelná nemoc může zasáhnout kohokoliv z nás. Čtyři z pěti lidí si přejí zemřít doma. Vyhledejte odbornou pomoc u mobilních hospiců včas.",
+            cs: "Nové symboly připomínají, že doma je nám nejlíp, a i poslední chvíle života můžeme prožít doma. Kampaň Dožít doma podporuje mobilní hospice, které s tím pomáhají. Díky jejich péči mohou lidé zůstat až do konce tam, kde to mají nejraději.",
             sk: "",
         },
         gameQRImageSrc: {
