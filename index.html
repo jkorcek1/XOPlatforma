@@ -17,8 +17,8 @@
         <img src="assets/img/logo.svg" class="w-6/12 mt-36 mb-7">
         <div class="center gap-20">
             <div class="center gap-4 text-center">
-                <p text="menuText1">Umíš to s křížky a kolečky?</p>
-                <p text="menuText2">Tak se předveď. Pět v řadě vyhrává.</p>
+                <p text="menuText1"></p>
+                <p text="menuText2"></p>
             </div>
             <div class="center gap-5">
                 <button text="menuBackToGameButton" id="game-back-button" onclick="startGame()" class="hidden">Vrátit do hry</button>
@@ -75,15 +75,22 @@
                     <!-- Board will generate here -->
                 </div>
             </div>
-            <div class="w-44 min-w-44 mr-7">
-                <h1 text="gameCTATitle" class="text-xl text-blue font-bold">Vyhráváš? Tak nám to přijď předvést na pIšQworky!</h1>
-                <br>
-                <p text="gameCTADescription" class="text-black text-base">Letos už po <span id="xo-year"></span>. organizujeme mistrovství škol Česka a Slovenska v této logické hře. Přihlásit se můžeš společně se svým týmem, nebo bojovat sám za sebe v kategorii jednotlivců.</p>
-                <br>
-                <p text="gameCTAText" class="text-black text-base font-bold">Chceš vědět víc? Koukni na náš web <span class="highlight" onclick="toggleXOIframe()">pisqworky.cz</span>, budeme se těšit.</p>
+            <div>
+                <div class="w-44 min-w-44 mr-7">
+                    <h1 text="gameCTATitle" class="text-xl text-blue font-bold"></h1>
+                    <br>
+                    <p text="gameCTADescription" class="text-black text-base"></p>
+                    <br>
+                    <p text="gameCTAText" class="text-black text-base font-bold"></p>
+                </div>
+                <div class="w-44 min-w-44 mr-7 mt-4">
+                    <h1 text="gameDDTitle" class="text-xl text-darkRed font-bold"></h1>
+                    <br>
+                    <p text="gameDDDescription" class="text-black text-base"></p>
+                </div>
             </div>
         </div>
-        <img text="gameQRImageSrc" src="assets/img/cs/qr_code_dark.svg" class="absolute right-0 bottom-0 mr-7 mb-[2.95rem] size-44">
+        <img text="gameQRImageSrc" src="assets/img/cs/qr_code_dark.svg" class="absolute left-0 bottom-0 ml-7 mb-7 size-44">
     </div>
     <div class="xoIframe hidden absolute top-0 z-10 items-center justify-center min-w-[100dvw] min-h-[100dvh] bg-black/40">
         <div class="relative w-[93%]">

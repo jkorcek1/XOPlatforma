@@ -763,8 +763,8 @@ button {
   margin-bottom: 1.75rem;
 }
 
-.mb-\[2\.95rem\] {
-  margin-bottom: 2.95rem;
+.mb-\[2\.75rem\] {
+  margin-bottom: 2.5rem;
 }
 
 .ml-7 {
@@ -781,6 +781,10 @@ button {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -1040,7 +1044,7 @@ button {
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {

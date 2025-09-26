@@ -3,7 +3,7 @@ const config = {
     elements: {
         menuText1: {
             type: "text",
-            cs: "Umíš to s domečky a papučkami?",
+            cs: "Zvládneš pIšQworky s novými symboly?<br>Místo křížků a koleček, bačkory a domečky.",
             sk: "Vieš to s domčekmi a papučkami?"
         },
         menuText2: {
@@ -46,6 +46,16 @@ const config = {
             cs: "Chceš vědět víc? Koukni na náš web <span class='highlight' onclick='toggleXOIframe()'>pisqworky.cz</span>, budeme se těšit.",
             sk: "Chceš vedieť viac? Pozri na náš web <span class='highlight' onclick='toggleXOIframe()'>pisqworky.sk</span>, budeme sa tešiť.",
         },
+        gameDDTitle: {
+            type: "text",
+            cs: "Místo křížků a koleček, bačkory a domeček.<br>Kam se poděly?",
+            sk: ""
+        },
+        gameDDDescription: {
+            type: "text",
+            cs: "Nové symboly připomínají, že doma je nám nejlíp, a i poslední chvíle života můžeme prožít doma. Kampaň Dožít doma podporuje mobilní hospice, které s tím pomáhají. Díky jejich péči mohou lidé zůstat až do konce tam, kde to mají nejraději.",
+            sk: "",
+        },
         gameQRImageSrc: {
             type: "src",
             cs: "assets/img/cs/qr_code_dark.svg",
@@ -53,8 +63,8 @@ const config = {
         },
         gameWinCross: {
             type: "text",
-            cs: "Papučka vyhrála",
-            sk: "Papučka vyhrala"
+            cs: "Bačkory vyhrály",
+            sk: "Papuče vyhrali"
         },
         gameWinCircle: {
             type: "text",
