@@ -775,6 +775,10 @@ button {
   margin-right: 1.75rem;
 }
 
+.mr-16 {
+  margin-right: 4rem;
+}
+
 .mt-36 {
   margin-top: 9rem;
 }
@@ -793,6 +797,11 @@ button {
 
 .hidden {
   display: none;
+}
+
+.size-40 {
+  width: 10rem;
+  height: 10rem;
 }
 
 .size-44 {
@@ -840,6 +849,10 @@ button {
 
 .w-48 {
   width: 12rem;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .w-6\/12 {
