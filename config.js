@@ -3,13 +3,13 @@ const config = {
     elements: {
         menuText1: {
             type: "text",
-            cs: "Zvládneš pIšQworky s novými symboly?<br>Místo křížků a koleček, bačkory a domečky.",
-            sk: "Vieš to s domčekmi a papučkami?"
+            cs: "Zvládneš pIšQworky s&nbspnovými symboly?<br>Místo křížků a&nbspkoleček, bačkory a&nbspdomečky.",
+            sk: "Zvládneš pIšQworky s&nbspnovými symbolmi?<br>Miesto krížikov a&nbspkoliesok, papuče a&nbspdomčeky."
         },
         menuText2: {
             type: "text",
-            cs: "Tak se předveď. Pět v řadě vyhrává.",
-            sk: "Tak sa predveď. Päť v rade vyhráva."
+            cs: "Tak se předveď. Pět v&nbspřadě vyhrává.",
+            sk: "Tak sa predveď. Päť v&nbsprade vyhráva."
         },
         menuBackToGameButton: {
             type: "text",
@@ -38,7 +38,7 @@ const config = {
         },
         gameCTADescription: {
             type: "text",
-            cs: "Letos už po <span id='xo-year'></span>. organizujeme mistrovství škol Česka a Slovenska v této logické hře. Přihlásit se můžeš společně se svým týmem, nebo bojovat sám za sebe v kategorii jednotlivců.",
+            cs: "Letos už po <span id='xo-year'></span>.&nbsporganizujeme mistrovství škol Česka a&nbspSlovenska v&nbsptéto logické hře. Přihlásit se můžeš společně se svým týmem, nebo bojovat sám za sebe v&nbspkategorii jednotlivců.",
             sk: "Tento rok organizujeme už <span id='xo-year'></span>. majstrovstvá škôl Česka a Slovenska v tejto logickej hre. Prihlásiť sa môžeš spoločne so svojim tímom, alebo bojovať sám za seba v kategórii jednotlivcov."
         },
         gameCTAText: {
@@ -48,13 +48,13 @@ const config = {
         },
         gameDDTitle: {
             type: "text",
-            cs: "Místo křížků a koleček, bačkory a domeček.<br>Kam se poděly?",
-            sk: ""
+            cs: "Místo křížků a&nbspkoleček, bačkory a&nbspdomeček.<br>Kam se poděly?",
+            sk: "Namiesto krížikov a&nbspkoliesok, papuče a&nbspdomček.<br>Kam sa podeli?"
         },
         gameDDDescription: {
             type: "text",
-            cs: "Nové symboly připomínají, že doma je nám nejlíp, a i poslední chvíle života můžeme prožít doma. Kampaň Dožít doma podporuje mobilní hospice, které s tím pomáhají. Díky jejich péči mohou lidé zůstat až do konce tam, kde to mají nejraději.",
-            sk: "",
+            cs: "Nové symboly připomínají, že doma je nám nejlíp, a&nbspi&nbspposlední chvíle života můžeme prožít doma. Kampaň Dožít doma podporuje mobilní hospice, které s&nbsptím pomáhají. Díky jejich péči mohou lidé zůstat až do konce tam, kde to mají nejraději.",
+            sk: "Nové symboly pripomínajú, že doma je nám najlepšie, a&nbspposledné chvíle života môžeme prežiť doma. Kampaň Dožít doma podporuje mobilné hospice, ktoré s&nbsptým pomáhajú. Vďaka ich starostlivosti môžu ľudia zostať až do konca tam, kde to majú najradšej.",
         },
         gameQRImageSrc: {
             type: "src",
